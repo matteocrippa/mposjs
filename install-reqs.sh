@@ -1,4 +1,7 @@
 #!/bin/bash
+echo 'Updating repositories to install latest node.js version'
+sudo apt-get install -y python-software-properties python g++ make
+sudo add-apt-repository -y ppa:chris-lea/node.js
 echo 'Update local apt-get repos'
 sudo apt-get update
 echo 'Check for system updates'
