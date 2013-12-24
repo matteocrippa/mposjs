@@ -43,7 +43,5 @@ Then you can start installing litecoind
 -----
 ### Tips
 
-In order to have a little more security I suggest to add some extra apps to your server:
-
-- ufw (firewall);
-
+- Instead of OpenSSH server, give a try to **Dropbear** (apt-get install dropbear);
+- Setup a firewall (close all ports except for 80, 3333) give a try to ufw in order to achieve this quickly;
