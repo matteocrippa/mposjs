@@ -34,3 +34,16 @@ It installs in a quick manner all the requirements needed to start up your siste
 - Node.js;
 - Nginx with already working host on port 80;
 - CouchDB;
+- Nodejs modules;
+
+Then you can start installing litecoind
+
+`sudo install-litecoind`
+
+-----
+### Tips
+
+In order to have a little more security I suggest to add some extra apps to your server:
+
+- ufw (firewall);
+
