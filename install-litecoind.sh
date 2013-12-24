@@ -1,4 +1,6 @@
 #!/bin/bash
+echo 'Installing Litecoind dependencies'
+sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.1-dev libdb5.1++-dev -y
 echo 'Installing Litecoind'
 cd ~
 git clone git://github.com/litecoin-project/litecoin.git
