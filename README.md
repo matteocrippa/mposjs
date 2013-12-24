@@ -17,15 +17,16 @@ If you are starting from scratch I'd suggest you to use an [Ubuntu Mininal CD In
 -----
 ### Installation
 
+Create a new dir under **/srv/www**:
+
+`sudo mkdir -p /srv/www/mposjs`
+
 Clone github repo on your server hdd:
 
-`git clone https://github.com/matteocrippa/mposjs.git`
+`cd /srv/www/mposjs`
+`sudo git clone https://github.com/matteocrippa/mposjs.git .`
 
-Then enter the directory created:
-
-`cd mposjs`
-
-And start the requirements script I developed.
+Start the requirements script I developed.
 
 `sudo install-reqs`
 
@@ -34,9 +35,10 @@ It installs in a quick manner all the requirements needed to start up your siste
 - Node.js;
 - Nginx with already working host on port 80;
 - CouchDB;
-- Nodejs modules;
+- Nodemon;
+- Nodejs needed modules for mposjs;
 
-Then you can start installing litecoind
+Then you can start installing [litecoind](https://github.com/litecoin-project/litecoin):
 
 `sudo install-litecoind`
 
