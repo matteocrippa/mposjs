@@ -28,7 +28,7 @@ Clone github repo on your server hdd:
 
 Start the requirements script I developed.
 
-`sudo install-reqs`
+`sudo ./install-reqs`
 
 It installs in a quick manner all the requirements needed to start up your sistem:
 
